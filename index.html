@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coconut Delights - Discover the Benefits of Coconuts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://raw.githubusercontent.com/weyjei/coconut-Product-Landing-Page-/12a258caa5e78cd2b88174559824c18f4726cac1/logo.png" alt="Coconut Logo">
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#benefits" class="nav-link">Benefits</a></li>
+        <li><a href="#uses" class="nav-link">Uses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Experience the Wonders of Coconuts</h1>
+      <p>A natural powerhouse for health and wellness.</p>
+      <button id="watch-video">Learn more</button>
+    </section>
+
+    <section id="features">
+      <h2>Unleash the Features of Coconuts</h2>
+      <p>Coconuts are versatile and nutritious, offering a wide range of health benefits:</p>
+      <ul>
+        <li>Rich in vitamins and minerals</li>
+        <li>High in healthy fats</li>
+        <li>Natural source of hydration</li>
+        <li>Supports heart health</li>
+        <li>Contains antioxidants</li>
+      </ul>
+    </section>
+
+    <section id="benefits">
+      <h2>Unlock the Benefits of Coconuts</h2>
+      <p>Incorporating coconuts into your diet can lead to numerous health benefits:</p>
+      <ul>
+        <li>Boosts energy levels</li>
+        <li>Improves digestion</li>
+        <li>Enhances skin health</li>
+        <li>Supports weight management</li>
+        <li>Strengthens the immune system</li>
+      </ul>
+    </section>
+
+    <section id="uses">
+      <h2>Delicious Uses for Coconuts</h2>
+      <p>Coconuts can be enjoyed in various forms:</p>
+      <ul>
+        <li>Coconut water for hydration</li>
+        <li>Coconut milk for cooking and baking</li>
+        <li>Shredded coconut in desserts</li>
+        <li>Coconut oil for cooking and skincare</li>
+        <li>Coconut meat as a nutritious snack</li>
+      </ul>
+    </section>
+
+    <section id="cta">
+      <h2>Ready to Enjoy the Benefits of Coconuts?</h2>
+      <p>Join us in celebrating the wonders of coconuts!</p>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <input type="submit" id="submit" value="Get Started">
+      </form>
+    </section>
+
+    <section id="video-section">
+      <iframe id="video" src="https://www.youtube.com/embed/7pKK4tWfYT4" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+  </main>
+
+  <script>
+    const watchVideoButton = document.getElementById('watch-video');
+    const videoSection = document.getElementById('video-section');
+
+    watchVideoButton.addEventListener('click', () => {
+      videoSection.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
