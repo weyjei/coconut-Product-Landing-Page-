@@ -13,11 +13,11 @@ header {
   background-color: #45a049;
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 #header-img {
-  max-width: 150px; 
+  max-width: 150px;
 }
 
 #nav-bar {
